@@ -1,0 +1,26 @@
+create table Ticket
+(
+TrainNo VARCHAR2(4),
+TrainName varchar2(20),
+SourceName varchar2(20),
+DestinationName varchar2(20),
+Seat number,
+Price number(7,2)
+)
+
+
+
+create sequence train_no start with 1000
+
+CREATE TABLE BOOKEDDETAIL(
+TRAINNO VARCHAR2(4),
+PASSENGERNAME VARCHAR2(20),
+AGE NUMBER,
+PHONENUMBER VARCHAR2(10),
+BOOKDATE DATE)
+
+
+
+create sequence pnr_seq start with 100;
+
+
